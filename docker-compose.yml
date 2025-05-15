@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ibgateway:
+    build: .
+    container_name: ibgateway
+    ports:
+      - "8000:8000"
+      - "4001:4001"
